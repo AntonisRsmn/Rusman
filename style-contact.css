@@ -11,7 +11,7 @@ html{
   .topnav {
     background-color: #000000;
     overflow: hidden;
-    position: fixed;
+    position: absolute;
     top: 0;
     width: 100%;
   }
@@ -88,13 +88,14 @@ html{
     }
   }
   
-  .footer_text {
-    color: #FFFFFE;
-    font-size: 16px;
-    bottom: 0px;
-    left: 45%;
-    position: absolute;
-  }
+/* Footer */
+.footer_text {
+  color: #FFFFFE;
+  text-align: center;
+  font-size: 16px;
+  margin: 30px auto;
+  font-weight: bold;
+}
 
   h1 {
     color: #FFFFFE;
